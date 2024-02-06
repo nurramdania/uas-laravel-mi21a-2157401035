@@ -1,0 +1,22 @@
+body {
+    margin: 30 px;
+    padding: 20 px;
+  }
+  
+  .background-container {
+    background-image: url('nia.jpeg'); /* Gantilah dengan path gambar latar belakang Anda */
+    background-size: 25 px;
+    background-position: 50 px;
+    height: 90vh; /* 100% tinggi viewport */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white; /* Warna teks untuk kontras dengan latar belakang */
+  }
+  
+  h1, p {
+    margin: 0;
+    text-align: center;
+  }
+  
